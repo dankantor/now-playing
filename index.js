@@ -10,8 +10,8 @@ class NowPlaying {
     }
   }
   
-  onStart(e) {
-    this.start(e.target.song);
+  onStart(obj) {
+    this.start(obj.song);
   }
   
   start(song) {

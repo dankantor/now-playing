@@ -2,7 +2,7 @@
   "author": "Dan Kantor <dan@ex.fm>",
   "name": "now-playing",
   "description": "NowPlaying sets the document title to the current song",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/now-playing.cjs.js",
   "module": "dist/now-playing.esm.js",
   "browser": "dist/now-playing.umd.js",

@@ -23,8 +23,8 @@ var NowPlaying = function () {
 
   _createClass(NowPlaying, [{
     key: 'onStart',
-    value: function onStart(e) {
-      this.start(e.target.song);
+    value: function onStart(obj) {
+      this.start(obj.song);
     }
   }, {
     key: 'start',
